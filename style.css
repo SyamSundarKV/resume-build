@@ -32,6 +32,19 @@ a {
 	font-weight: 400;
 	color: var(--text-color);
 }
+.contact_link {
+	margin-top: 1rem;
+	font-size: 24px;
+	font-weight: 400;
+	color: var(--text-color);
+
+}
+.icons  {
+	color: var(--text-color);
+}
+.icons :hover {
+	color: #ff7613;
+}
 .title {
 	color: var(--primary-color);
 	font-weight: 700;
@@ -229,25 +242,7 @@ a {
 	width: 2rem;
 }
 
-/* socials */
-.social_items {
-	margin-top: 2rem;
-}
-.social_item {
-	margin-top: 1.5rem;
-	font-size: 1.5rem;
-	display: flex;
-	gap: 0.5rem;
-	align-items: center;
-	justify-content: flex-start;
-	color: var(--text-color);
-}
-.social_item:hover {
-	color: var(--primary-color);
-}
-.social_item svg {
-	width: 2rem;
-}
+
 
 hr {
 	grid-column: 1/-1;
